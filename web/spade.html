@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<meta charset="UTF-8">
+			<script type="text/javascript" src="d3/d3.js"></script>
+			<title>SPADE Tree View</title>
+      <style type="text/css">
+      	circle.node {
+			  	stroke: #fff;
+			  	stroke-width: 1.5px;
+				}
+
+				line.link {
+			  	stroke: #999;
+			  	stroke-opacity: .6;
+				}
+     </style>
+	</head>
+	<body>
+	    <h1>Visualizing SPADE trees using D3.js</h1>
+	    <h2>Nodes are sized after <select id='sizeBy'></select> and colored by <select id='colorBy'></select></h2>
+			<p>Based on code and examples from <a href='https://github.com/mbostock/d3/wiki/Gallery'>Mike Bostock</a></p>
+	    <div id='log'>
+	    </div>
+	    <div id='chart'></div>
+	    <script src='/js/spade.js'></script>
+	    <script type='text/javascript'>
+	        d3.json('spade.json',draw)
+	    </script>
+			<p>Click or drag on any node to trigger <a href='https://github.com/mbostock/d3/wiki/Force-Layout'>d3.js force layout</a> algorithm</p>
+     </body>
+</html>
