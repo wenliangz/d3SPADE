@@ -138,7 +138,7 @@ function draw(json) {
 		    	.range([0,12]);
 
 		node.attr("r", function(d) { return size(Math.pow(d[sizeBy]['percenttotal'],0.57)); });
-    console.log(sizeBy);
+    //console.log(sizeBy);
     updateColor();
 
 		return sizeBy;
@@ -167,8 +167,8 @@ function draw(json) {
 		    	.range(["blue", "yellow", "green", "red"]);
 
 		node.style("fill", function(d) { if(d[sizeBy][colorBy]=='NA') { return('white') } else { return color(d[sizeBy][colorBy]); } });
-    console.log(colorBy);
-    console.log(col_extent);
+    //console.log(colorBy);
+    //console.log(col_extent);
 
 		return colorBy;
 
