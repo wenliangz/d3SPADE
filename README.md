@@ -2,10 +2,10 @@
 THe following project outlines how to run a quick SPADE analysis using the [flowCore](http://www.bioconductor.org/packages/release/bioc/html/flowCore.html) and [SPADE](http://www.bioconductor.org/packages/release/bioc/html/spade.html) pacakges
 
 # Procedure
- 1- download files to analyze
- 2- run SPADE analysis
- 3- summarize SPADE information and save as JSON
- 4- visualize
+ 1. download files to analyze
+ 2. run SPADE analysis
+ 3. summarize SPADE information and save as JSON
+ 4. visualize
 
 # Run the web app
 Using python3 on windows, from the console go to the /web folder and run the following command

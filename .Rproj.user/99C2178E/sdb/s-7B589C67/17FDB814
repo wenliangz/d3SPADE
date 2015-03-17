@@ -1,0 +1,17 @@
+{
+    "contents" : "# SPADE Analysis with d3.js Visualization\nTHe following project outlines how to run a quick SPADE analysis using the [flowCore](http://www.bioconductor.org/packages/release/bioc/html/flowCore.html) and [SPADE](http://www.bioconductor.org/packages/release/bioc/html/spade.html) pacakges\n\n# Procedure\n 1. download files to analyze\n 2. run SPADE analysis\n 3. summarize SPADE information and save as JSON\n 4. visualize\n\n# Run the web app\nUsing python3 on windows, from the console go to the /web folder and run the following command\n\n```\npython3 -m http.server\n```\n\nthen point your browser to \n\n```\nhttp://localhost:8000/spade.html\n```\n\n# Acknolwedgments\nMike Bostock for the [d3.js package](https://github.com/mbostock/d3/wiki/Gallery)\nBernd Bodenmiller for his [fantastic publication](http://www.nature.com/nbt/journal/v30/n9/full/nbt.2317.html)",
+    "created" : 1426603271689.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "543383275",
+    "id" : "17FDB814",
+    "lastKnownWriteTime" : 1426605127,
+    "path" : "C:/github/d3SPADE/README.md",
+    "project_path" : "README.md",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "markdown"
+}
